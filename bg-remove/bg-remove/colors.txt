@@ -1,0 +1,11 @@
+general color: #222A34
+
+btn color: #475366
+
+middle dives  top : #2F3A4B;
+
+middle dives middle - #161B21;
+
+
+________________________________________
+
