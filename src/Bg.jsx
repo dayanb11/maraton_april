@@ -75,7 +75,7 @@ function Bg() {
     </div>
 
 
-<Download_popup> </Download_popup>
+{/* <Download_popup> </Download_popup> */}
 
 </>
   );

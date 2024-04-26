@@ -5,10 +5,10 @@ import check from './assets/check.png'
 
 function Download_img(props) {
   return (
-    <div className={'download_img_cont ' + ( props.top=="false" ? 'download_img_cont_border': '')}  >
-        <div  className={"download_img_title " + (props.top=="true" ? " padding_top_title " : '')}  >{props.title} </div>
+    <div className={'download_img_cont ' + ( props.top==="false" ? 'download_img_cont_border': '')}  >
+        <div  className={"download_img_title " + (props.top==="true" ? " padding_top_title " : '')}  >{props.title} </div>
 
-        { props.top=="false" ? <img src={new_img} className='download_img_new'/> : <></> }
+        { props.top==="false" ? <img src={new_img} alt='הורד תמונה' className='download_img_new'/> : <></> }
 
         <div className='download_img_subtitle'> {props.subtitle} </div>   
 
